@@ -1,0 +1,17 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: red
+}
+
+ul#mainNav {
+    list-style-type: none;
+}
+
+img {
+    width: 30%; 
+    height: auto
+}
