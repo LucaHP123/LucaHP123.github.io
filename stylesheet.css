@@ -5,22 +5,50 @@
 }
 
 body {
-    background-color: rgba(255, 255, 128, .5);
-    line-height: 3em;
+    background-color: rgba(255, 219, 165, 0.5);
+    line-height: 1em;
 }
 
+p {
+    text-overflow: ellipsis;
+    max-width: 600px;
+    max-height: 500px;
+  }
+  
+
 h1 {
-    color: rgb(red, green, blue)
+    color: rgba(255, 0, 0, 0.5);
+    text-decoration: green wavy underline;
 }
+
+h2 {
+    font-size: 1em;
+}
+
+p {
+    font-size: 1em;
+}
+
+
 
 ul#mainNav {
     list-style-type: none;
+    font-size: .5em;
 }
 
 img {
-    width: 30%; 
+    width: 20%; 
     height: auto
 }
 
+article {
+    font-size: .5em;
+}
 
+footer {
+    font-size: .5em;
+} 
+{ 
+    text-transform: capitalize;
+}
 
