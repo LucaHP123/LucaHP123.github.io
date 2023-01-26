@@ -43,16 +43,4 @@ h3 {
 footer {
     font-size: .5em;
 }
-a:link {
-        background-color: rgba(4, 0, 255, 0.5);
-        color: rgba(9, 255, 0, 0.5);
-}
-a:visited {
-    background-color: rgba(4, 0, 255, 0.5);
-    color: rgba(9, 255, 0, 0.5);
-}
-a:hover {
-    background-color: rgba(4, 0, 255, 0.5);
-    color: rgba(255, 0, 166, 0.5);
-   
-}
+
