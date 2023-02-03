@@ -1,15 +1,22 @@
 
 *{
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
-    margin: 0
+    /* font-size: 1.2em; */
+    margin: 0;
     padding: 0
 }
 body {
-    background-image: url("MountainSeewli");
+    background-image: url("images/MountainSweewli.jpg");
     background-color: rgba(255, 219, 165, 0.5);
-    line-height: 1em;
+    /* line-height: 1.2em; */
 }
+
+    #wrapper {
+
+        width: 80%;
+        margin: auto;
+    }
+
 p {
     text-overflow: ellipsis;
     max-width: 30%;
@@ -22,33 +29,35 @@ h1 {
 }
 h2 {
     text-transform: capitalize;
-    font-size: 1em;
+    /* font-size: 1em; */
 }
 p {
-    font-size: 1em;
+    /* font-size: 1em; */
 }
 ul#mainNav {
     list-style-type: none;
-    font-size: .5em;
+    /* font-size: .5em; */
 }
 img {
     width: 20%; 
     height: auto
 }
 article {
-    font-size: .5em;
+    /* font-size: .5em; */
 }
 h3 {
-    font-size: 1em;
+    /* font-size: 1em; */
     text-align: center;
 } 
+
 footer {
-    font-size: .5em;
 }
+  
 a:link {
         background-color: rgba(4, 0, 255, 0.5);
         color: rgba(9, 255, 0, 0.5);
 }
+
 a:visited {
     background-color: rgba(4, 0, 255, 0.5);
     color: rgba(9, 255, 0, 0.5);
@@ -57,3 +66,17 @@ a:hover {
     background-color: rgba(4, 0, 255, 0.5);
     color: rgba(255, 0, 166, 0.5);
 }
+
+.columns {float:left;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
