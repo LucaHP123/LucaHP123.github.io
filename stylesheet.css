@@ -19,7 +19,7 @@ body {
 
 p {
     text-overflow: ellipsis;
-    max-width: 30%;
+    max-width: 500px;
     max-height: 40%;
   }
 h1 {
@@ -29,11 +29,8 @@ h1 {
 }
 h2 {
     text-transform: capitalize;
-    /* font-size: 1em; */
 }
-p {
-    /* font-size: 1em; */
-}
+
 ul#mainNav {
     list-style-type: none;
     /* font-size: .5em; */
