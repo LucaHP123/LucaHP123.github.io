@@ -1,7 +1,6 @@
 
 *{
     font-family: 'Roboto', sans-serif;
-    /* font-size: 1.2em; */
     margin: 0;
     padding: 0
 }
@@ -9,7 +8,6 @@
 body {
     background-image: url("images/MountainSweewli.jpg");
     background-color: rgba(255, 219, 165, 0.5);
-    /* line-height: 1.2em; */
 }
 
 
@@ -18,17 +16,17 @@ body {
         background-color: white;
     }
 
-/* div {
-    width: 50%;
-    height: 170px;
-    background-color: tan;
-} */
-
     #wrapper {
-
         width: 80%;
         margin: auto;
     }
+
+    .column {
+        width: 33.33%;
+        float: left;
+        margin: 10%;
+        }
+
 
 #home-header {
     background-color: blue;
@@ -48,9 +46,7 @@ hr {
 }
 
 p {
-    /* text-overflow: ellipsis; */
     max-width: 600px;
-    /* max-height: 40%; */
   }
 h1 {
     font-family: 'Roboto', sans-serif;
@@ -65,10 +61,6 @@ ul#mainNav {
     list-style-type: none;
     display:flex;
     justify-content: space-between;
-    /* font-size: .5em; */
-}
-li {
-    /* display: inline; */
 }
 
 .nav-right-margin {
@@ -90,20 +82,16 @@ img {
 }
 article {
     margin-top: 30px;
-    /* font-size: .5em; */
 }
 h3 {
-    /* font-size: 1em; */
     text-align: center;
 } 
 
 a:link {
-        /* background-color: rgba(4, 0, 255, 0.5); */
         color: black
 }
 
 a:visited {
-    /* background-color: rgba(4, 0, 255, 0.5); */
     color: black
 }
 a:hover {
@@ -126,9 +114,6 @@ a:hover {
 .col-12 {width: 100%;}
 
 nav {
-    /* position: fixed;
-    top: 0;
-    left: 0; */
     width: 100%;
     margin-top: 30px;
     }
@@ -140,6 +125,26 @@ nav {
     clear: left;
 }
 
-@media only screen and (max-width: 800px) {
+div#minColumn {
+    width: 40%;
+}
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-row {
+    padding: 20%
+}
+
+@media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 400px) {
+    .column {
+    width: 100%;
+    float: left;
+    margin:0%;
+    }
 }
