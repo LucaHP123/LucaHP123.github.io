@@ -142,11 +142,11 @@ div#minColumn {
     .column {
         width: 100%;
         float: left;
-    margin: 0%;
-}
+        margin: 0%;
+    }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1000px) {
+@media only screen and (min-width: 600px) and (max-width: 800px) {
 
     /* body {
         background-image: url("images/MountainSweewli.jpg");
@@ -162,11 +162,11 @@ div#minColumn {
     }
 
     #home-header {
-    background-color: rgb(255, 0, 0);
-    position: fixed;
-    width: 100%;
-    padding-bottom: 30px;
-    z-index: 99;
+        background-color: rgb(255, 0, 0);
+        position: fixed;
+        width: 100%;
+        padding-bottom: 30px;
+        z-index: 99;
     }
 
 }
