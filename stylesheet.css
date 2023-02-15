@@ -145,6 +145,7 @@ div#minColumn {
     .column {
     width: 100%;
     float: left;
-    margin:0%;
+    margin:10%;
+    background-color: brown;
     }
 }
