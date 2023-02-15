@@ -146,6 +146,6 @@ div#minColumn {
     width: 100%;
     float: left;
     margin:10%;
-    background-color: brown;
+    background-color: rgba(255, 219, 165, 0.5);
     }
 }
