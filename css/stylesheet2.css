@@ -27,16 +27,24 @@
 .overlay {
     position: absolute;
     top: 0;
-    /* visibility: hidden; */
+    opacity: 0;
     display: block;
+    transition: opacity 3s;
+    transition-timing-function: ease;
 }
 
-.poster:hover .overlay {
-    visibility: visible;
+.overlay:hover {
+    opacity: 1;
+    transform: scale(1.1);
+   
 }
 
 .relative {
     position: relative
+}
+
+.col-top-padding {
+    padding-top: 4.5em;
 }
 
 body {
@@ -44,16 +52,16 @@ body {
     color: rgb(255, 255, 255);
 }
 
-    #wrapper {
-        width: 80%;
-        margin: auto;
-    }
+#wrapper {
+    width: 80%;
+    margin: auto;
+}
 
-    .column {
-        width: 33.33%;
-        float: left;
-        margin: 10%;
-        }
+.column {
+    width: 33.33%;
+    float: left;
+    margin: 10%;
+    }
 
 .container {
     max-width: none;
@@ -102,7 +110,7 @@ ul#mainNav {
 }
 
 img {
-    width: 25%; 
+    width: 80%; 
     height: auto; 
     float: left;
     padding-right: 25px;
