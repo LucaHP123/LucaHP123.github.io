@@ -24,6 +24,12 @@
     }
     #div {transition-timing-function: ease-in-out;}   */
 
+#container {
+    font-size: 5em;
+   padding-top: 100px;
+  padding-bottom: 200px;
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -140,7 +146,7 @@ nav {
     }
 
 .row-spacing {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .clear {
     clear: left;
@@ -158,3 +164,22 @@ div#minColumn {
 .content-row {
     padding: 20%
 }
+
+/* For devices larger than 400px */
+/* @media (min-width: 400px) {
+    .container {
+      width: 85%;
+      padding: 0; }
+  } */
+  
+  /* For devices larger than 550px */
+  /* @media (min-width: 550px) {
+    .container {
+      width: 80%; }
+    .column,
+    .columns {
+      margin-left: 4%; }
+    .column:first-child,
+    .columns:first-child {
+      margin-left: 0; }
+    } */
