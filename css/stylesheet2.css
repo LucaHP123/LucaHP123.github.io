@@ -125,7 +125,7 @@ ul#mainNav {
 img {
     width: 80%; 
     height: auto; 
-    float: left;
+    /* float: left; */
     padding-right: 25px;
     padding-bottom: 15px;
 }
