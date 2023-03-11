@@ -2,8 +2,12 @@
 *{
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0
+    padding: 0;
     
+}
+
+html {
+    scroll-behavior: smooth; 
 }
 
 /* #people {
@@ -25,9 +29,20 @@
     #div {transition-timing-function: ease-in-out;}   */
 
 #container {
-    font-size: 5em;
+    position: relative;
+    font-size: 3em;
    padding-top: 100px;
   padding-bottom: 200px;
+}
+
+#centered {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 /* #centered {
@@ -36,6 +51,19 @@
     left: 50%;
     transform: translate(-50%, -50%);
   } */
+
+.test1 {    
+    background-image: url(\images/InteractiveStory_Images/TitleBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .overlay {
     position: absolute;
@@ -81,15 +109,15 @@ body {
 }
 
 #home-header {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     position: fixed;
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     z-index: 99;
 }
 
 #header-content {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -99,6 +127,7 @@ hr {
 
 p {
     max-width: 600px;
+    min-width: 300px;
   }
 h1 {
     font-family: 'Roboto', sans-serif;
@@ -126,8 +155,8 @@ img {
     width: 80%; 
     height: auto; 
     /* float: left; */
-    padding-right: 25px;
-    padding-bottom: 15px;
+    /* padding-right: 25px;
+    padding-bottom: 15px; */
 }
 
 article {
@@ -137,6 +166,11 @@ article {
 h3 {
     text-align: center;
 } 
+
+.larger {
+    font-size: 6em;
+    float: inline-start;
+}
 
 a:link {
         color: rgb(255, 255, 255)
@@ -174,21 +208,16 @@ div#minColumn {
     padding: 20%
 }
 
-/* For devices larger than 400px */
-/* @media (min-width: 400px) {
-    .container {
-      width: 85%;
-      padding: 0; }
-  } */
-  
-  /* For devices larger than 550px */
-  /* @media (min-width: 550px) {
-    .container {
-      width: 80%; }
-    .column,
-    .columns {
-      margin-left: 4%; }
-    .column:first-child,
-    .columns:first-child {
-      margin-left: 0; }
-    } */
+@media (min-width: 550px) {
+.test1 {
+    height: 100vh;
+    }
+
+    #container {
+        font-size: 5em;
+    }
+
+    #centered {
+        top: 400px;
+    }
+}
