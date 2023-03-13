@@ -31,8 +31,8 @@ html {
 #container {
     position: relative;
     font-size: 3em;
-   padding-top: 100px;
-  padding-bottom: 200px;
+   padding-top: 200px;
+  padding-bottom: 60px;
 }
 
 #centered {
@@ -45,15 +45,8 @@ html {
     text-align: center;
 }
 
-/* #centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  } */
 
-.test1 {    
-    background-image: url(\images/InteractiveStory_Images/TitleBackground.png);
+/* .test1 {    
     background-size: cover;
     background-repeat: no-repeat;
     box-sizing: border-box;
@@ -63,12 +56,12 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .overlay {
     position: absolute;
     top: 0;
-    opacity: 0;
+    opacity: 100;
     display: block;
     transition: opacity 3s;
     transition-timing-function: ease;
@@ -117,7 +110,7 @@ body {
 }
 
 #header-content {
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
@@ -125,10 +118,14 @@ hr {
     margin-top: 200px;
 }
 
+
 p {
-    max-width: 600px;
-    min-width: 300px;
+    width: 80%;
+    /* max-width: 600px;
+    min-width: 300px; */
   }
+
+
 h1 {
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -141,6 +138,7 @@ ul#mainNav {
     list-style-type: none;
     display:flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .nav-right-margin {
@@ -154,9 +152,8 @@ ul#mainNav {
 img {
     width: 80%; 
     height: auto; 
-    /* float: left; */
-    /* padding-right: 25px;
-    padding-bottom: 15px; */
+    display: inline-block;
+    margin: 25px 10px;
 }
 
 article {
@@ -189,8 +186,13 @@ nav {
     }
 
 .row-spacing {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
+
+.padding-top {
+    padding-top: 150px;
+}
+
 .clear {
     clear: left;
 }
@@ -219,5 +221,8 @@ div#minColumn {
 
     #centered {
         top: 400px;
+    }
+    .row-spacing {
+        padding: 40px
     }
 }
