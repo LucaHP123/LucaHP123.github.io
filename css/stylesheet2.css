@@ -119,10 +119,9 @@ hr {
 }
 
 
-p {
-    width: 80%;
-    /* max-width: 600px;
-    min-width: 300px; */
+#intro {
+    text-align: center;
+    padding: 10% 20%;
   }
 
 
@@ -193,6 +192,10 @@ nav {
     padding-top: 150px;
 }
 
+.padding-bottom {
+   padding-bottom: 100px;
+}
+
 .clear {
     clear: left;
 }
@@ -201,9 +204,9 @@ div#minColumn {
     width: 40%;
 }
 
-.flex-container {
+.flex-row {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 .content-row {
@@ -224,5 +227,9 @@ div#minColumn {
     }
     .row-spacing {
         padding: 40px
+    }
+
+    .flex-row {
+        flex-direction: row;
     }
 }
